@@ -2,7 +2,7 @@
 # Mostre a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
 
 print("Programa Turno alunos")
-turno = str(input("Olá aluno, em que turno você estuda? Digite M (Matutino), V (Vespertino) ou N (Noturno): "))
+turno = str(input("Olá aluno, em que turno você estuda? Digite M (Matutino), V (Vespertino) ou N (Noturno): ")).upper()
 
 match turno:
     case "M":
