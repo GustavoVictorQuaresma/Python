@@ -2,6 +2,10 @@
 # ao usuário se deseja continuar com o uso da calculadora, enquanto ele digitar (“S” – Sim) o programa irá reiniciar a
 # calculadora.
 
+# Repetição usando ”ENQUANTO”
+# while == “valor”
+# #sendo verdadeiro repete até ser falso
+
 print("Programa Tabuada Enquanto")
 num1 = int(input("Digite o primeiro número inteiro: "))
 print(num1)
