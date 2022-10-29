@@ -10,25 +10,21 @@ if (b1>25):
     print("Valor inválido ! O bimestre vale 25 pontos !")
 else:
     print(b1)
-
 b2 = int(input("Digite a nota do 2° bimestre: "))
 if (b2>25):
     print("Valor inválido ! O bimestre vale 25 pontos !")
 else:
     print(b2)
-
 b3 = int(input("Digite a nota do 3° bimestre: "))
 if (b3>25):
     print("Valor inválido ! O bimestre vale 25 pontos !")
 else:
     print(b3)
-
 b4 = int(input("Digite a nota do 4° bimestre: "))
 if (b4>25):
     print("Valor inválido ! O bimestre vale 25 pontos !")
 else:
     print(b4)
-
 resultado = b1+b2+b3+b4
 if (resultado>100):
     print("Valor inválido ! A soma dos 4 bimestres tem um total de até 100 pontos !")
