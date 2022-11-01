@@ -21,5 +21,3 @@ if encontrado is False:
     print("Não foi encontrada a consoante", c1, " na busca !")
 
 print(lista)
-
-
