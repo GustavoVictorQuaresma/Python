@@ -4,20 +4,19 @@
 print("Programa vetor caracteres")
 
 lista = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-vogais = ["a", "e", "i", "o", "u"]
 
 for i in range(10):
-    lista[i] = str(input("Digite 10 letras de A até Z: ")).upper()
+    lista[i] = str(input("Digite 10 letras de A até Z: "))
+print("A lista de caracteres é: ", lista)
 
-c1 = str(input("Digite uma consoante para localizar: ")).upper()
-encontrado = False
+def vogal (lista):
+    soma = 0
+    for i in lista:
+        if i == "a" or i == "e" or i == "i" or i == "o" or i == "u":
+            continue
+        else:
+            soma += 1
+    print("A quantidade de consoante é: ", soma)
+    return soma
 
-for i in range(10):
-        if lista[i] == c1:
-            print("A consoante", c1, "foi encontrada na posição ", i)
-            encontrado = True
-
-if encontrado is False:
-    print("Não foi encontrada a consoante", c1, " na busca !")
-
-print(lista)
+vogal(lista)
