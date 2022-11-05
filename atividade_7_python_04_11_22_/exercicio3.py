@@ -2,7 +2,7 @@
 
 print("Programa Fatorial")
 
-n = int(input("Digite um número para fazer o calculo fatorial: "))
+n = int(input("Digite um número inteiro para fazer o calculo fatorial: "))
 
 def fatorial(n):
    if n == 1 or n == 0:
